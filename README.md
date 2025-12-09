@@ -128,10 +128,6 @@ Each item typically includes:
 - Images you upload are processed locally. Temporary files are cleaned up where possible.
 
 
-## 📝 License
-MIT (or your preferred license). Update this section if different.
-
-
 ## 🙌 Acknowledgements
 - Tesseract OCR
 - Streamlit
