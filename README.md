@@ -2,6 +2,8 @@
 
 A clean, modern Streamlit app and CLI to extract text from floor plan images using Tesseract OCR. Automatically identifies room names and dimension strings, draws color-coded boxes, and exports JSON/CSV with optional real-world unit conversion.
 
+## 🌐 Live app
+- Deployed: https://ocr-tesseract.streamlit.app/
 
 ## ✨ Features
 - **OCR with context**: Uses Tesseract to extract text, bounding boxes, and confidence.
@@ -63,6 +65,9 @@ Run the UI:
 ```bash
 streamlit run app.py
 ```
+
+Or open the deployed app: https://ocr-tesseract.streamlit.app/
+
 Then open the local URL shown in the terminal. In the app:
 - Upload a floor plan image (PNG/JPG/JPEG).
 - Optionally enable preprocessing, adjust confidence threshold, and hide `Other`.
