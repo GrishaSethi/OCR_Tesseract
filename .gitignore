@@ -1,0 +1,46 @@
+# -------------------------
+# Python cache / bytecode
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# -------------------------
+# Virtual Environment
+# -------------------------
+venv/
+.env/
+.env*/
+.venv*/
+
+# -------------------------
+# Output / Temporary files
+# -------------------------
+output/
+temp_processed/
+*.log
+
+# -------------------------
+# System / Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -------------------------
+# IDE configs
+# -------------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Other
+# -------------------------
+# Ignore compiled binaries or misc
+*.exe
+*.dll
+*.so
